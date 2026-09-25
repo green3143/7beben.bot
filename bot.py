@@ -12,13 +12,7 @@ from aiogram.types import (
     InlineKeyboardButton,
     InlineKeyboardMarkup,
     Message,
-)
 
-TOKEN = "8848424471:AAGx7ouTZZPGrC_18q1WTxJ9ipbf1Uubqxo"  # Токен
-ADMIN_ID = 6446656281  # адйдишник
-REKVIZITY = (
-    "СБП / ЮMoney: +79991234567"  #это для оплаты розыгрыша
-)
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
